@@ -35,8 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: Setup Node.js environment
-      - uses: actions/setup-node@v2.4.0
-        with:
-          node-version: 12.x
-        run: npm -v
+      # - name: Setup Node.js environment
+      # - uses: actions/setup-node@v2.4.0
+      #   with:
+      #     node-version: 12.x
+      #   run: npm -v
