@@ -36,6 +36,7 @@ jobs:
           echo test, and deploy your project.
 
       - uses: actions/setup-node@v2
+        name: setup node env
         with:
           node-version: '14'
       - run: npm --version
