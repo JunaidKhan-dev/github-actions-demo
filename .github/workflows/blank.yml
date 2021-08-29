@@ -43,4 +43,7 @@ jobs:
         name: setup node env
         with:
           node-version: '14'
-        run: npm --version
+        
+      - run: npm --version
+        name: node version display
+      
